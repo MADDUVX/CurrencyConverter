@@ -1,0 +1,67 @@
+*{
+  border-style: none;
+  border-radius: 15px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.currency-converter {
+  position: absolute;
+  width: 431px;
+  height: 172px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color:whitesmoke
+}
+
+.field {
+  position: relative;
+  background-color: rgba(0, 0, 0, 8);
+  height: 70px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.currency-picker {
+  position: absolute;
+  top:3px;
+  left:3px;
+  padding: 14px;
+  font-weight: bolder;
+  background-color: #fff;
+  background-color: gold
+}
+
+.currency-input {
+  position: absolute;
+  top:3px;
+  left: 122px;
+  padding: 14px;
+  background-color:greenyellow;
+}
+
+select {
+  font-size: 30px;
+  text-align: center;
+  background-color: goldenrod;
+}
+
+.number-input {
+  font-size: 30px;
+  width: 250px;
+  text-align: center;
+  outline: none;
+}
